@@ -1,16 +1,25 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import Button from "@material-ui/core/Button";
 import SearchAppBar from "./components/TopBar";
 import SimpleTabs from "./components/TopTabs";
 
-import { MuiThemeProvider, ThemeProvider } from "@material-ui/styles";
+import { ThemeProvider } from "@material-ui/styles";
 import { createMuiTheme } from "@material-ui/core/styles";
-import { blue, teal, brown, blueGrey, grey } from "@material-ui/core/colors";
 
 const theme = createMuiTheme({
   palette: {
-    primary: teal
+    primary: {
+      light: "#52c7b8",
+      main: "#009688",
+      dark: "#00675b",
+      contrastText: "#fff"
+    },
+    secondary: {
+      light: "#ff8a50",
+      main: "#ff5722",
+      dark: "#c41c00",
+      contrastText: "#fff"
+    }
   }
 });
 

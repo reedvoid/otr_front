@@ -4,7 +4,7 @@ import Typography from "@material-ui/core/Typography";
 import Container from "@material-ui/core/Container";
 import Grid from "@material-ui/core/Grid";
 
-import RecordCard from "./RecordCard";
+import RecordCard from "./RecordCard2";
 
 export default function SimpleContainer() {
   return (
